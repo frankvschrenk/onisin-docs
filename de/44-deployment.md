@@ -56,21 +56,21 @@ In Claude Desktop sollte nach dem Neustart das Hammer-Symbol (🔨) erscheinen, 
 ### Alles lokal (typisch für Entwicklung)
 
 ```
-Claude Desktop → mcp-bridge → OOS Hub (:8000) → PostgreSQL
-                                    └──────────→ oosp (:9100)
+Claude Desktop → oos --bridge → OOS Hub (:8000) → PostgreSQL
+                                      └──────────→ oosp (:9100)
 ```
 
 ### Hub auf Server
 
 ```
-Claude Desktop → mcp-bridge → OOS Hub (server:8000) → PostgreSQL (server)
-                                    └──────────────→ oosp (server:9100)
+Claude Desktop → oos --bridge → OOS Hub (server:8000) → PostgreSQL (server)
+                                      └──────────────→ oosp (server:9100)
 ```
 
-In diesem Fall muss `mcp-bridge` mit der Server-URL gestartet werden:
+In diesem Fall die Server-URL explizit angeben:
 
 ```bash
-./mcp-bridge https://mein-server.example.com/mcp
+./oos --bridge --url https://mein-server.example.com/mcp
 ```
 
 ## Auto-Updater
