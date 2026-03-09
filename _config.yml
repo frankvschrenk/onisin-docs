@@ -1,0 +1,39 @@
+title: Onisin OS Documentation
+description: AI-first Enterprise Data System
+baseurl: ""
+url: "https://onisin.com"
+
+remote_theme: just-the-docs/just-the-docs
+
+# Sprache / Language
+lang: de
+
+# Navigation
+nav_sort: case_insensitive
+
+# Aux links (oben rechts)
+aux_links:
+  "onisin.com":
+    - "https://onisin.com"
+
+# Footer
+footer_content: "© 2026 Onisin OS"
+
+# Search
+search_enabled: true
+search_tokenizer_separator: /[\s\-_]+/
+
+# Code highlighting
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+plugins:
+  - jekyll-remote-theme
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.sh"
