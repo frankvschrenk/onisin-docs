@@ -32,7 +32,7 @@ For iCloud: create an app-specific password at https://appleid.apple.com.
 provider = "google"
 
 [contacts.google]
-token_file = "/Users/frank/.oos/google_token.json"
+token_file = "/your/path/.oos/google_token.json"
 ```
 
 On first start, OOS runs the OAuth flow for Google and stores the token in `token_file`.
@@ -49,7 +49,7 @@ provider = "microsoft"
 client_id     = "AZURE_CLIENT_ID"
 client_secret = "AZURE_CLIENT_SECRET"
 tenant_id     = "AZURE_TENANT_ID"
-token_file    = "/Users/frank/.oos/ms_token.json"
+token_file    = "/your/path/.oos/ms_token.json"
 ```
 
 **Prerequisite:** Azure App Registration with `Contacts.Read` permission.

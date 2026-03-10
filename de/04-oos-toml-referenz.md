@@ -43,10 +43,10 @@ path     = "oos"
 
 ```toml
 [oos]
-ctx_dir   = "/Users/frank/oosb/ctx"
+ctx_dir   = "/dein/pfad/oosb/ctx"
 html_type = "fs"
-html_dir  = "/Users/frank/oosb/html"
-infra     = "/Users/frank/oosb/ctx/infra.conf.xml"
+html_dir  = "/dein/pfad/oosb/html"
+infra     = "/dein/pfad/oosb/ctx/infra.conf.xml"
 oosp_url  = "http://localhost:9100"
 ```
 
@@ -109,7 +109,7 @@ password = "app-specific-password"
 
 ```toml
 [contacts.google]
-token_file = "/Users/frank/.oos/google_token.json"
+token_file = "/dein/pfad/.oos/google_token.json"
 ```
 
 ### [contacts.microsoft]
@@ -119,7 +119,7 @@ token_file = "/Users/frank/.oos/google_token.json"
 client_id     = "AZURE_CLIENT_ID"
 client_secret = "AZURE_CLIENT_SECRET"
 tenant_id     = "AZURE_TENANT_ID"
-token_file    = "/Users/frank/.oos/ms_token.json"
+token_file    = "/dein/pfad/.oos/ms_token.json"
 ```
 
 ---

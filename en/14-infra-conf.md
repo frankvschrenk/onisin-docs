@@ -49,5 +49,5 @@ The path to `infra.conf.xml` is specified in `oos.toml` under `[oos] infra` — 
 
 ```toml
 [oos]
-infra = "/Users/frank/oosb/ctx/infra.conf.xml"
+infra = "/your/path/oosb/ctx/infra.conf.xml"
 ```

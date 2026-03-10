@@ -29,11 +29,11 @@ Under **System → Scopes → Create**:
 Name: onisin
 Expression:
 return {
-  "oos_ctx_dir":   "/Users/frank/oosb/ctx",
-  "oos_html_dir":  "/Users/frank/oosb/html",
+  "oos_ctx_dir":   "/your/path/oosb/ctx",
+  "oos_html_dir":  "/your/path/oosb/html",
   "oos_html_type": "fs",
   "oos_oosp_url":  "https://localhost:9100",
-  "oos_infra_path": "/Users/frank/oosb/ctx/infra.conf.xml"
+  "oos_infra_path": "/your/path/oosb/ctx/infra.conf.xml"
 }
 ```
 

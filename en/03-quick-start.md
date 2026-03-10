@@ -79,8 +79,8 @@ Add to `claude_desktop_config.json`:
 {
   "mcpServers": {
     "oos": {
-      "command": "/path/to/mcp-bridge",
-      "args": ["http://localhost:8000/mcp"]
+      "command": "/path/to/oos",
+      "args": ["--bridge"]
     }
   }
 }

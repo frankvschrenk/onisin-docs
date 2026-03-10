@@ -76,11 +76,12 @@ Der Browser öffnet sich automatisch für den OAuth-Login. Nach erfolgreichem Lo
 Füge in `claude_desktop_config.json` hinzu:
 
 ```json
+
 {
   "mcpServers": {
     "oos": {
-      "command": "/pfad/zu/mcp-bridge",
-      "args": ["http://localhost:8000/mcp"]
+      "command": "/pfad/zu/oos",
+      "args": ["--bridge"]
     }
   }
 }
